@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Home",
+    "link": "/",
+    "icon": "https://img.icons8.com/wired/64/000000/home.png"
+  },
+  {
+    "name": "Services",
+    "link": "/services",
+    "icon": "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png",
+      "subs" : [
+        {
+          "subname" : "web design",
+          "link" : "web-design",
+          "icon" : "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png"
+        },
+        {
+          "subname" : "web asdfasds",
+          "link" : "web-design2",
+          "icon" : "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png"
+        }
+      ]
+
+  },
+  {
+    "name": "About",
+    "link": "/about",
+    "icon": "https://img.icons8.com/material-outlined/24/000000/about.png",
+    "subs" : [
+      {
+        "subname" : "web gggg",
+        "link" : "web-design3",
+        "icon" : "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png"
+      },
+      {
+        "subname" : "web fff",
+        "link" : "web-design4",
+        "icon" : "https://img.icons8.com/fluent-systems-regular/48/000000/blueprint.png"
+      }
+    ]
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/anovobilskischool",
+    "icon": "https://img.icons8.com/dotty/80/000000/github.png"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/aj-novobilski-122296aa/",
+    "icon": "https://img.icons8.com/wired/64/000000/linkedin.png"
+  }
+]
