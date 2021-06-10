@@ -22,7 +22,7 @@ export default function NAV(globaldata) {
 
   if (open === true) {
     classname =
-      " transition ease-in-out duration-700 bg-bluegray-200 h-screen w-56 absolute z-40";
+      " transition ease-in-out duration-700 bg-bluegray-200 h-screen w-52 absolute z-40";
     mobilemenuicon = (
       <img
         class="w-6 "
@@ -51,20 +51,19 @@ var overlay =  "col-span-3 bg-black w-screen h-screen absolute invisible"
     
     <div  id="initial">
            
-      <nav className="bg-black z-20">
+      <nav className="shadow-sm border-double border-2 ring-opacity-25 bg-bluegray-50 z-20">
         {/* mobile */}
         <div className="grid grid-rows-1 grid-cols-4 pt-5 pb-5 flex">
           <div onClick={test} className="pl-2">
             {mobilemenuicon}
           </div>
-          <div className="">
+          <div className="col-span-2 mx-auto">
             <img
-              classname="h-2"
-              src="https://img.icons8.com/wired/32/000000/home.png"
+              classname="h-2 align-items-center mx-auto"
+              src="https://familymarketing.us/media/logo-family-marketing.png"
             ></img>
           </div>
           <div className="mx-auto items-center flex col-span-2 text-white inline-block">
-            <h2 className="text-sm">Please <a className="alink" onClick={test}>Login</a> Or <a className="alink">Register</a></h2>
             <img
               classname="h-2"
               src=""
